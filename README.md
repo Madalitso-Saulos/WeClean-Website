@@ -2,7 +2,7 @@
 
 A modern, responsive marketing website for **WeClean Services**, a professional cleaning company serving residential, commercial, and industrial clients across Malawi. The site showcases the company's services, credentials, and gallery, and includes a working contact form for service enquiries.
 
-🔗 **Live site:** Hosted on [Netlify](https://www.netlify.com/)
+🔗 **Live site:** [weclean-services.netlify.app/](https://weclean-services.netlify.app/)
 
 ---
 
