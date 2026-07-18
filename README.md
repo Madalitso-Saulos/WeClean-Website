@@ -1,66 +1,194 @@
-# WeClean Services — Website
+# WeClean Services — Professional Cleaning Website
 
-A single-page, responsive website for WeClean Services (Blantyre, Malawi), built with HTML5, CSS3, TypeScript, and a PHP contact-form handler.
 
-## Files
+A modern, responsive, and user-focused website developed for **WeClean Services**, a professional cleaning company based in **Blantyre, Malawi**.
 
-```
-weclean/
-├── index.html          Main page (all sections)
-├── css/style.css        All styling, animations, responsive layout
-├── ts/script.ts          TypeScript source (edit this)
-├── js/script.js          Compiled JavaScript (loaded by index.html)
-├── php/contact.php       Form handler — validates + emails/logs submissions
-└── tsconfig.json         TypeScript compiler config
-```
+This project was carefully designed and developed to create a strong online presence for a cleaning business by combining modern UI/UX principles, responsive layouts, interactive elements, and a reliable contact communication system.
 
-## Running it locally
+The website highlights WeClean Services' commitment to delivering professional cleaning solutions for residential, commercial, and industrial environments.
 
-You need a PHP-capable web server for the contact form to work (a plain
-double-click on `index.html` will render the design, but the form's `fetch`
-call needs a real server to hit `php/contact.php`).
+---
 
-**Quickest option — PHP's built-in server:**
+# Live Demo
+
+ Website:
+
+https://weclean-services.netlify.app/
+
+---
+
+# Developer & Author
+
+## Developed by
+
+**Madalitso Saulos**
+
+Computer Systems and Security Student  
+Web Developer | Front-End Developer | Cybersecurity Enthusiast
+
+This project was designed, developed, tested, and deployed by **Madalitso Saulos** as part of continuous learning and practical web development experience.
+
+The project demonstrates skills in:
+
+- Front-end development
+- Responsive web design
+- UI/UX implementation
+- TypeScript programming
+- PHP form handling
+- Website deployment
+- Version control using Git
+
+---
+
+#  Project Overview
+
+WeClean Services Website is a business website created to help a cleaning company:
+
+- Showcase professional cleaning services
+- Build customer trust
+- Improve online visibility
+- Allow customers to request services easily
+- Present company information professionally
+- Provide a modern digital brand experience
+
+The website follows modern web standards with emphasis on:
+
+- Accessibility
+- Performance
+- Mobile responsiveness
+- Clean code structure
+- User experience
+
+---
+
+#  Project Objectives
+
+The main goals of this project were:
+
+### Business Goals
+
+✔ Create a professional online identity for WeClean Services  
+✔ Increase customer engagement through a clear service presentation  
+✔ Make it easier for customers to contact the company  
+✔ Build trust through professional design and branding  
+
+### Technical Goals
+
+✔ Develop a responsive website from scratch  
+✔ Implement reusable and maintainable code  
+✔ Apply modern CSS architecture  
+✔ Integrate TypeScript for interactive functionality  
+✔ Create a functional contact form system  
+
+---
+
+#  Website Features
+
+## Landing Page
+
+- Professional hero section
+- Strong call-to-action buttons
+- Brand-focused messaging
+- Modern visual presentation
+
+##  Services Section
+
+Displays cleaning solutions including:
+
+- Residential cleaning
+- Office cleaning
+- Commercial cleaning
+- Industrial cleaning
+- Deep cleaning services
+
+## About Section
+
+Includes:
+
+- Company introduction
+- Values and mission
+- Professional approach
+- Customer-focused messaging
+
+##  Contact System
+
+Features:
+
+- Customer enquiry form
+- Form validation
+- PHP processing
+- Email notification support
+- Submission backup logging
+
+##  Location Integration
+
+Supports:
+
+- Google Maps integration
+- Business location display
+- Customer navigation assistance
+
+##  Responsive Experience
+
+Optimized for:
+
+- Desktop computers
+- Tablets
+- Mobile devices
+
+---
+
+# Technologies Used
+
+## Frontend Technologies
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling and animations |
+| TypeScript | Interactive functionality |
+| JavaScript | Browser execution |
+| Lucide Icons | Professional interface icons |
+
+---
+
+## Backend Technologies
+
+| Technology | Purpose |
+|---|---|
+| PHP | Contact form processing |
+| Mail Handler | Email communication |
+| File Logging | Backup submissions |
+
+---
+
+## Tools & Platforms
+
+- Visual Studio Code
+- Git
+- GitHub
+- Netlify
+- TypeScript Compiler
+
+---
+
+
+#  Installation & Local Development
+
+## Requirements
+
+Before running the project locally, install:
+
+- PHP 8+
+- Node.js
+- TypeScript
+- Git
+
+---
+
+## Clone Repository
+
 ```bash
-cd weclean
-php -S localhost:8000
-```
-Then open http://localhost:8000 in your browser.
+git clone <repository-url>
 
-**Alternative:** copy the `weclean/` folder into your XAMPP/MAMP/WAMP
-`htdocs` directory, or upload it to any standard PHP hosting (most Malawian
-hosts and cPanel providers support PHP out of the box).
-
-## Editing the TypeScript
-
-If you change `ts/script.ts`, recompile it with:
-```bash
-npx tsc -p tsconfig.json
-```
-This regenerates `js/script.js`. The browser only ever loads the compiled
-`.js` file, so `index.html` never needs to change for TS edits.
-
-## Before you go live
-
-1. **Images** — all photos currently point to Unsplash placeholder URLs.
-   Replace the `src` attributes in `index.html` with real photos of your
-   team, premises, and completed jobs.
-2. **Contact details** — swap the placeholder phone number
-   (`+265 XXX XXX XXX`) in `index.html` for your real number, and set
-   `$recipientEmail` at the top of `php/contact.php` to the inbox that
-   should receive enquiries.
-3. **Email delivery** — PHP's built-in `mail()` function needs a
-   configured mail server/SMTP relay on your host to actually deliver
-   messages. Most shared hosting providers have this set up already; on
-   local dev servers it will typically fail silently, which is why every
-   submission is also appended to `php/submissions.log` as a backup.
-4. **Google Map** — the contact section currently has a placeholder map
-   card. Swap it for a real embedded Google Map iframe with your address.
-5. **Social links** — the footer's Facebook/Instagram/WhatsApp/LinkedIn
-   icons are placeholders (`#`); point them to your real profiles.
-
-## Design tokens
-
-- Colors: Deep Blue `#0F4C81`, Aqua `#00B8D9`, Green `#22C55E`, white/light-gray backgrounds
-- Headings: Poppins — Body: Inter
-- All colors and spacing are defined as CSS custom properties at the top of `css/style.css` for easy theming.
+This version makes the repository look more like a **professional developer portfolio project** rather than just a simple website upload.
