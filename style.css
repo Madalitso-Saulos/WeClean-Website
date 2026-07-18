@@ -189,19 +189,15 @@ h2{ font-size:clamp(1.7rem, 3vw, 2.6rem); font-weight:700; margin-bottom:.4rem; 
         object-position: center;
     }
 }
-
 /* For very small screens */
 @media screen and (max-width: 360px) {
     .hero {
         min-height: 40vh;
     }
-    
     .hero-media {
         padding-top: 75%; /* 4:3 aspect ratio for very small screens */
     }
 }
-
-
 /* HERO */
 .hero{
   position:relative;
@@ -525,7 +521,6 @@ textarea{
     margin-top:2rem;
     margin-bottom:.2rem;
 }
-
 .map-heading h3{
     margin:0;
     font-size:1.15rem;
