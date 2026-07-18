@@ -1,6 +1,5 @@
 # WeClean Services — Professional Cleaning Website
 
-![WeClean Services Website](https://weclean-services.netlify.app/)
 
 A modern, responsive, and user-focused website developed for **WeClean Services**, a professional cleaning company based in **Blantyre, Malawi**.
 
@@ -10,15 +9,15 @@ The website highlights WeClean Services' commitment to delivering professional c
 
 ---
 
-# 🌐 Live Demo
+# Live Demo
 
-🚀 Website:
+ Website:
 
 https://weclean-services.netlify.app/
 
 ---
 
-# 👨‍💻 Developer & Author
+# Developer & Author
 
 ## Developed by
 
@@ -41,7 +40,7 @@ The project demonstrates skills in:
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 WeClean Services Website is a business website created to help a cleaning company:
 
@@ -62,7 +61,7 @@ The website follows modern web standards with emphasis on:
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 The main goals of this project were:
 
@@ -83,16 +82,16 @@ The main goals of this project were:
 
 ---
 
-# ✨ Website Features
+#  Website Features
 
-## 🏠 Landing Page
+## Landing Page
 
 - Professional hero section
 - Strong call-to-action buttons
 - Brand-focused messaging
 - Modern visual presentation
 
-## 🧹 Services Section
+##  Services Section
 
 Displays cleaning solutions including:
 
@@ -102,7 +101,7 @@ Displays cleaning solutions including:
 - Industrial cleaning
 - Deep cleaning services
 
-## 👥 About Section
+## About Section
 
 Includes:
 
@@ -111,7 +110,7 @@ Includes:
 - Professional approach
 - Customer-focused messaging
 
-## 📞 Contact System
+##  Contact System
 
 Features:
 
@@ -121,7 +120,7 @@ Features:
 - Email notification support
 - Submission backup logging
 
-## 📍 Location Integration
+##  Location Integration
 
 Supports:
 
@@ -129,7 +128,7 @@ Supports:
 - Business location display
 - Customer navigation assistance
 
-## 📱 Responsive Experience
+##  Responsive Experience
 
 Optimized for:
 
@@ -139,7 +138,7 @@ Optimized for:
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 ## Frontend Technologies
 
@@ -170,9 +169,26 @@ Optimized for:
 - GitHub
 - Netlify
 - TypeScript Compiler
-- XAMPP (Local PHP Testing)
 
 ---
 
-# 📂 Project Structure
 
+#  Installation & Local Development
+
+## Requirements
+
+Before running the project locally, install:
+
+- PHP 8+
+- Node.js
+- TypeScript
+- Git
+
+---
+
+## Clone Repository
+
+```bash
+git clone <repository-url>
+
+This version makes the repository look more like a **professional developer portfolio project** rather than just a simple website upload.
