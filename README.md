@@ -7,13 +7,6 @@ This project was carefully designed and developed to create a strong online pres
 
 The website highlights WeClean Services' commitment to delivering professional cleaning solutions for residential, commercial, and industrial environments.
 
----
-
-# Live Demo
-
- Website:
-
-https://weclean-services.netlify.app/
 
 ---
 
